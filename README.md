@@ -8,4 +8,4 @@ Próximos passos:
 2 - Responsividade
 
 
-https://bkt-tonton.github.io/Portifolio/
+https://wes-portifolio.netlify.app/
