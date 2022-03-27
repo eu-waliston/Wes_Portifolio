@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #000;
+}
+
+/*============== NAVBAR =========== */
+li {
+  text-transform: uppercase;
+}
+
+/*============== HOME =========== */
+#home {
+  /* futuramente caso queira mudar algo */
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.bg_video{
+	right: 0; 
+	bottom: 0;
+	width: 100%; 
+	height: 100%;
+	z-index: -9999;
+	background-size: cover;
+  filter: brightness(0.7);
+}
+
+#home_me_p, #home_me_h1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -680px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#home_me_p {
+  font-size: 30px;
+}
+
+#home_me_h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+span {
+  font-weight: 500;
+  background-color: rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#down_arrow {
+  width: 150px;
+  position: relative;
+  left: 45%;
+  top: -480px;
+}
+
+/* ============= ABOUT ME ======== */
+#about_me {
+  background-image: url(assets/about_me.png);
+  height: 100vh;
+}
+
+#about_me_p,
+#about_me_h1{
+  color: #fff;
+  margin-left: 60px;
+  position: relative;
+  top: 400px;
+}
+
+#about_me_h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+  
+  font-weight: 600;
+}
+
+#about_me_p {
+  font-size: 20px;
+}
+
+#about_me_h1_2 {
+  float: right;
+  padding-top: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffff;
+  text-transform: uppercase;
+  position: relative;
+  right: 200px;
+
+}
+
+.expertise {
+  font-size: 60px;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  float: right;
+  position: relative;
+  right: -180px;
+  top: 120px;
+  gap: 40px;
+}
+
+/* ============ PROJECTS ============ */
+#projects {
+  background-image: url(assets/projects.png);
+  height: 100vh;
+}
+
+#projetos {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  top: 200px;
+}
+
+#cards_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  gap: 120px;
+  position: relative;
+  top: 250px;
+  margin-left: 200px;
+}
+
+#projets_git {
+  color: white;
+  font-size: 16px;
+  position: relative;
+  top: 400px;
+  margin-left: 800px;
+  background-color: rgb(29, 28, 28);
+  height: 30px;
+  width: 250px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #fff !important;
+  color: #000;
+}
+.btn:hover {
+  background-color: #008cff !important;
+  border: none;
+}
+.btn:visited {
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: rgb(25, 178, 216);
+}
+/* ============== CONTACT ========== */
+#contact {
+background-image: url(assets/contact.png);
+background-position: center;
+background-size: cover;
+height: 100vh;
+}
+
+
+
+#contact_h1, #contact_h2 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 250px;
+}
+
+#contact_h2 {
+  margin-top: 280px;
+  font-size: 22px;
+}
+
+
+.icons {
+  position: relative;
+  margin-left: 820px;
+  top: 370px;
+}
+
+.dd2 {
+  background-color: #008cff;
+  color: #000;
+}
+
+/* ============= Footer ===== */
+.footer {
+  background-color: #000;
+  height: 20px;
+}
+
+.footerf {
+  text-align: center;
+  margin-top: 15px;
+  color: #fff;
+}
+
